@@ -1,7 +1,7 @@
 {
   "name": "Stacks",
   "version": "1.0.0",
-  "description": "A custom eleventy template with personality.",
+  "description": "Homepage of Akash Nimare",
   "scripts": {
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
@@ -9,18 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bradleytaunt/stacks-11ty"
+    "url": "https://github.com/akashnimare/home"
   },
   "author": {
-    "name": "Bradley Taunt",
-    "email": "bradleytaunt@gmail.com",
-    "url": "https://www.bradleytaunt.com/"
+    "name": "Akash Nimare",
+    "email": "svnitakash@gmail.com",
+    "url": "https://akashnimare.in"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bradleytaunt/stacks-11ty/issues"
+    "url": "https://github.com/akashnimare/home/issues"
   },
-  "homepage": "https://stacks11ty.netlify.com/",
+  "homepage": "https://akashnimare.in/",
   "devDependencies": {
     "@11ty/eleventy": "^0.5.0",
     "luxon": "^1.0.0",
