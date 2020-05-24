@@ -1,9 +1,9 @@
 ---
-title: This is also an article post
-summary: A post showcasing all styling for article elements
-date: 2018-11-22
+title: Mental Health Resources
+summary: A colloection of videos, quotes which helped me
+date: 2020-01-01
 tags:
-  - CSS
+  - Mental Health
 ---
 
 ## An h2 header
