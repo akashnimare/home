@@ -1,12 +1,9 @@
 ---
-layout: layouts/page.njk
-title: Music
-description: This is music page
-tags:
-  - nav
-navtitle: Music
+title: Mental Health Resources
+summary: A colloection of videos, quotes which helped me
 date: 2020-01-01
-permalink: /music/index.html
+tags:
+  - Mental Health
 ---
 
 ## An h2 header
