@@ -1,0 +1,20 @@
+---
+layout: layouts/base-post.njk
+section: project
+---
+
+{{ layoutContent | safe }}
+
+<div class="flex-grid flex-grid--wrap w-100">
+{% set projectsList = collections.projectsLatest %}
+    {% for project in projectslist | reverse %}
+    <a class="flex-grid__item" href="{{ project.url | url }}">
+        <h2 class="home-title">{{ project.data.title }}</h2>
+        {% if project.data.summary %}
+            <p class="home-summary">
+                {{ project.data.summary }}
+            </p>
+        {% endif %}
+    </a>
+    {% endfor %}
+</div>

@@ -1,27 +1,32 @@
 :root {
-	--brand-color: #ffe79a;
+	--brand-color: #fff;
 	--link-color: #ef5a5a;
 }
 
-*, *:before, *:after {
-  box-sizing: border-box;
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
 }
 
 html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: "Avenir", -apple-system,'SF UI Text', 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: "Avenir", -apple-system, "SF UI Text", "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body {
 	background-color: var(--brand-color);
 	font-size: 18px;
 }
-body
-
-h1,h2,h3,h4,h5,h6 {
-	font-family: 'Open Sans', 'Helvetica', sans-serif;
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Open Sans", "Helvetica", sans-serif;
 }
 
 h1 {
@@ -37,7 +42,8 @@ p {
 	margin: 0 0 10px;
 }
 
-a,a:visited {
+a,
+a:visited {
 	color: var(--link-color);
 }
 
@@ -46,7 +52,7 @@ img {
 }
 
 hr {
-	background: rgba(0,0,0,0.1);
+	background: rgba(0, 0, 0, 0.1);
 	border: 0;
 	height: 1px;
 	margin: 20px 0;
@@ -64,7 +70,8 @@ small {
 	width: 100%;
 }
 
-ul,ol {
+ul,
+ol {
 	line-height: 29px;
 	margin: 0 0 20px;
 }
@@ -74,7 +81,7 @@ figure {
 }
 
 pre {
-	background: rgba(0,0,0,0.05);
+	background: rgba(0, 0, 0, 0.05);
 	overflow: auto;
 	padding: 10px;
 }
@@ -90,7 +97,7 @@ table td {
 	text-align: left;
 }
 table tr {
-	border-bottom: 1px solid rgba(0,0,0,0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 table td,
 table th {
@@ -100,10 +107,10 @@ table th {
 /* The Grid(s) */
 .flex-grid {
 	display: flex;
-    flex-shrink: 0;
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 1400px;
+	flex-shrink: 0;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 1400px;
 }
 .flex-grid--wrap {
 	flex-wrap: wrap;
@@ -111,27 +118,27 @@ table th {
 .flex-grid--sb {
 	justify-content: space-between;
 }
-..flex-grid--col {
+.flex-grid--col {
 	flex-direction: column;
 }
 
 .flex-grid__item {
 	background: white;
 	border-radius: 10px;
-    box-shadow: 0 30px 50px 0 rgba(0,0,0,0.3);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 20px;
-    padding: 40px;
-    text-decoration: none;
-    transition: .3s ease all;
-    width: calc(33% - 40px);
+	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 20px;
+	padding: 40px;
+	text-decoration: none;
+	transition: 0.3s ease all;
+	width: calc(33% - 40px);
 }
 .flex-grid__item:hover {
 	background: var(--link-color);
-	box-shadow: 0 40px 60px 0 rgba(0,0,0,0.2);
-    transform: scale(1.05);
+	box-shadow: 0 40px 60px 0 rgba(0, 0, 0, 0.2);
+	transform: scale(1.05);
 }
 .flex-grid__item:hover h2.home-title,
 .flex-grid__item:hover p.home-summary {
@@ -147,13 +154,13 @@ table th {
 }
 
 .flex-grid__item--full-width {
-	max-width: 650px;
+	max-width: 800px;
 	width: calc(100% - 40px) !important;
 }
 
 .flex-grid__item--no-hover:hover {
 	background: white;
-	box-shadow: 0 30px 50px 0 rgba(0,0,0,0.3);
+	box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.3);
 	transform: none;
 }
 .flex-grid__item--no-hover p {
@@ -206,13 +213,13 @@ nav ul :last-child {
 nav li {
 	display: inline-block;
 	font-size: 24px;
-	margin: 0 .5em;
+	margin: 0 0.5em;
 }
 nav li a,
 nav li a:visited {
 	opacity: 0.6;
 	text-decoration: none;
-	transition: .3s ease all;
+	transition: 0.3s ease all;
 }
 nav li a:hover {
 	opacity: 1;
@@ -236,12 +243,12 @@ a[rel="tag"]:visited {
 
 /* Contact Form */
 form {
-  display: grid;
+	display: grid;
 	padding: 2em 0;
 }
 
 form label {
-  display: none;
+	display: none;
 }
 
 input,
@@ -294,7 +301,9 @@ button {
 		margin: 40px 0;
 	}
 
-	p, ol, ul {
+	p,
+	ol,
+	ul {
 		line-height: 25px;
 	}
 
@@ -325,7 +334,7 @@ code[class*="language-"],
 pre[class*="language-"] {
 	color: #ccc;
 	background: none;
-	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
@@ -341,7 +350,6 @@ pre[class*="language-"] {
 	-moz-hyphens: none;
 	-ms-hyphens: none;
 	hyphens: none;
-
 }
 
 /* Code blocks */
@@ -358,8 +366,8 @@ pre[class*="language-"] {
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
-	padding: .1em;
-	border-radius: .3em;
+	padding: 0.1em;
+	border-radius: 0.3em;
 	white-space: normal;
 }
 
@@ -436,5 +444,3 @@ pre[class*="language-"] {
 .token.inserted {
 	color: green;
 }
-
-
