@@ -55,23 +55,23 @@ In the end, Keep in mind —
 > # You don’t need to go full-bore Readme Driven Development, you don’t need to include all those bullet points , you don’t need to follow any particular process. But writing a good README will definitely improve your documentation skills which will make you a better developer.
 
 You can check out some of the examples and resources which will help you in writing a good README.
-[**akashnimare/foco**
-*Stay focused with foco :rocket: [WIP]*github.com](https://github.com/akashnimare/foco/blob/master/readme.md)
-[**sindresorhus/pageres**
-*pageres - Capture website screenshots*github.com](https://github.com/sindresorhus/pageres)
-[**noffle/art-of-readme**
-*art-of-readme - :love_letter: Learn the art of writing quality READMEs.*github.com](https://github.com/noffle/art-of-readme)
-[**matiassingers/awesome-readme**
-*awesome-readme - A curated list of awesome READMEs*github.com](https://github.com/matiassingers/awesome-readme)
-[**dbader/readme-template**
-*readme-template - README.md template for your open-source project*github.com](https://github.com/dbader/readme-template)
-[**jehna/readme-best-practices**
-*readme-best-practices - Best practices for writing a README for your open source project*github.com](https://github.com/jehna/readme-best-practices)
-[**The Most Important Code Isn't Code**
-*Documentation is the single most important change I've made to my coding style in the last year. I'm not talking about…*zachholman.com](https://zachholman.com/posts/documentation/)
+
+[akashnimare/foco](https://github.com/akashnimare/foco/blob/master/readme.md)
+
+[sindresorhus/pageres](https://github.com/sindresorhus/pageres)
+
+[noffle/art-of-readme](https://github.com/noffle/art-of-readme)
+
+[matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme)
+
+[dbader/readme-template](https://github.com/dbader/readme-template)
+
+[jehna/readme-best-practices](https://github.com/jehna/readme-best-practices)
+
+[The Most Important Code Isn't Code](https://zachholman.com/posts/documentation/)
 
 That’s it. You’re ready to rock-n-roll in open source world 😎
 
-**_Thanks for reading. If you are just starting out your open source journey, you should checkout my other article about my development setup [here](https://medium.com/@meakaakka/my-dev-environment-16e87cd67f6f). If you have any question or need any help, feel free to contact me here @[meakaakka](http://twitter.com/meakaakka)._**
+**_Thanks for reading. If you are just starting out your open source journey, you should checkout my other article about my development setup [here](https://medium.com/@meakaakka/my-dev-environment-16e87cd67f6f). If you have any question or need any help, feel free to contact me here [meakaakka](http://twitter.com/meakaakka)._**
 
 If you liked this post, please consider clapping for it. I notice each one and appreciate them quite a lot. Thank-you!
