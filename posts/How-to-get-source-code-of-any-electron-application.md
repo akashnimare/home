@@ -24,5 +24,3 @@ So there is a way to get source code of a closed source electron app. Generally 
     $ asar extract app.asar example-sourcecode
 
     # **Boom cd into it and see the source code of the app**
-
-(**Note **— This post was originally posted here — [https://howtoelectron.app/](https://howtoelectron.app/))
