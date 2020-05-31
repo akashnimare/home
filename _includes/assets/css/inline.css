@@ -217,7 +217,7 @@ nav li {
 }
 nav li a,
 nav li a:visited {
-	opacity: 0.4;
+	opacity: 0.8;
 	text-decoration: none;
 	transition: 0.3s ease all;
 }
