@@ -3,10 +3,8 @@ title: A Beginners Guide to writing a Kickass README ✍
 summary: Write Kickass README
 date: 2016-11-25
 tags:
-  - Open Source, tech
+  - Open Source
 ---
-
-# A Beginners Guide to writing a Kickass README ✍
 
 Hey beginners,
 
