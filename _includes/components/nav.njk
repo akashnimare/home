@@ -3,6 +3,7 @@
   {%- for nav in collections.nav | sort(attribute="date") -%}
     <li><a href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a></li>
   {%- endfor -%}
+  <li><a href="https://github.com/akashnimare/ama">AMA</a>
   <li><a href="https://www.youtube.com/watch?v=6ThQkrXHdh4&list=PLNIPC73IphI4wVShyXwjFf1H8jtT_pk0F">Music</a>
   </ul>
 </nav>
