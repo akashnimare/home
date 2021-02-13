@@ -1,0 +1,4 @@
+# Redirects from what the browser requests to what we serve
+# https://www.netlify.com/docs/redirects/
+
+/books https://www.notion.so/Akka-s-Bookshelf-3e4a96368bde44708d4668a38a86cb51
